@@ -1,0 +1,178 @@
+body {
+  font-family: "Azeret Mono";
+}
+.description{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.heading{
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+/* header section */
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 100px;
+}
+.Name{
+  font-size: 30px;
+  font-weight: 800;  
+}
+.Resume{
+  width: 245px;
+  height: 55px;
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  color: rgb(13, 19, 33);
+  background-color: white;
+  cursor: pointer;
+}
+/* banner section */
+.banner{
+  background-image: url(Hero-bg.png);
+  text-align: center;
+  border-top: 2px dashed black;
+  border-bottom: 2px dashed black;
+  padding: 40px 100px;
+}
+.banner-intro{
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+}
+.banner-button{
+  margin-top: 30px;
+  background: rgb(13, 19, 33);
+  color: rgb(255, 255, 255);
+}
+/* Why Web Devellopment?? */
+.intro{
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.why-web-dev{
+  display: flex;
+  align-items: center;
+  gap: 8%;
+  margin: 80px 15px;
+}
+.why-web-dev button{
+  width: 180px;
+  height: 45px;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+  margin: 30px 0px;
+  border-radius: 0;
+  opacity: 0.7;
+  cursor: pointer;
+}
+/* Inspiration section */
+.section-parent{
+  margin: 60px 8%;
+  text-align: center;
+}
+iframe{
+  margin-top: 30px;
+  border-radius: 16px;
+  width: 800px;
+  height: 450px;
+}
+/* My Current Target */
+.current-skill{
+  display: flex;
+  margin: 20px;
+  align-items: center;
+}
+.target-card{
+  width: 40%;
+  height: auto;
+  gap: 15px;
+  padding: 40px;
+  margin: 0px 20px;
+  border-radius: 16px;
+}
+.card-title{
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+}
+.card a{
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  text-align: left;
+}
+/* My Next Target */
+.next-target{
+  width: 90%;
+  margin: 20px 0px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  padding: 0px 40px;
+}
+.next-target .target-card{
+  width: 100%;
+
+}
+.next-target img{
+  width: 150px;
+  height: 100px;
+}
+/* Support Section */
+.Support{
+  background-image: url(handshake.jpg);
+  background-color: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,1),rgba(0,0,0,0.7));
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  padding: 50px 50px;
+  margin: 0px 8% 100px;
+}
+.Support input[type="text"]{
+  width: 550px;
+  margin: 0px 16px;
+  padding: 0px 25px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  outline: none;
+}
+.Support input[type="submit"]{
+  width: 120px;
+  padding: 16px;
+  margin: 0px 16px;
+  color: rgb(13, 19, 33);
+  justify-content: center;
+  align-items: center;
+}
+/* Footer */
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 32px 0px;
+  padding: 0% 8%;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+}
+.footer-img{
+  display: flex;
+  gap: 20px;
+}
