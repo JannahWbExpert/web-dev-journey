@@ -11,7 +11,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
-  ,margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 .card{
     display: flex;
@@ -63,7 +63,7 @@ header{
   background: rgb(13, 19, 33);
   color: rgb(255, 255, 255);
 }
-/* Why Web Devellopment?? */
+/* Why Web Development?? */
 .intro{
   color: rgba(13, 19, 33, 0.7);
   font-size: 24px;
@@ -93,7 +93,7 @@ header{
   text-align: center;
 }
 iframe{
-  margin-top: 30px;
+  margin-top: 20px;
   border-radius: 16px;
   width: 800px;
   height: 450px;
@@ -132,25 +132,24 @@ iframe{
   height: 100px;
 }
 /* Support Section */
-.Support{
-  background-image: url(handshake.jpg);
-  background-color: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,1),rgba(0,0,0,0.7));
+#Support{
+  background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(handshake.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 16px;
   padding: 50px 50px;
   margin: 0px 8% 100px;
 }
-.Support input[type="text"]{
+#Support input[type="text"]{
   width: 550px;
   margin: 0px 16px;
   padding: 0px 25px;
   border: 1px solid rgba(13, 19, 33, 0.15);
 }
-.Support input[type="submit"]{
+#Support input[type="submit"]{
   width: 120px;
-  padding: 16px;
   margin: 0px 16px;
+  padding: 16px;
   color: rgb(13, 19, 33);
 }
 /* Footer */

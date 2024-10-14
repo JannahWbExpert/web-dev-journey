@@ -24,7 +24,7 @@
             <img src="Group.png" alt="">
             <p class="banner-intro">"In the near future, I hope to become a Developer."</p>
             <p class="description">Eager to learn, innovate, and create impactful web experiences. Watch this space as I turn my passion for coding into reality.</p>
-            <button class="banner-button Resume">Contact with me</button>
+            <button class="banner-button Resume" onclick="scrollToSection()">Contact with me</button>
         </section>
         <!-- Why Web Development?? -->
         <section class="section-parent">
@@ -122,7 +122,7 @@
             </div>
         </section>
         <!-- Support Section -->
-        <section class="section-parent Support">
+        <section class="section-parent" id="Support">
             <h class="heading" style="color: white;">I need Support</h>
             <p class="description" style="color: white;">Whether you have suggestions, questions, or just want to offer encouragement, I’d love to hear from you! Your feedback is invaluable in helping me grow and improve as I pursue my passion for web development. Let’s collaborate and learn together!</p>
             <div class="feedback">
@@ -154,4 +154,12 @@
     </main>
 </body>
 </html>
+
+<script>
+  function scrollToSection() {
+    document.getElementById('Support').scrollIntoView({
+      behavior: 'smooth'
+    });
+  }
+</script>
 
